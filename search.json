@@ -1,0 +1,102 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "self-study",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "self-study"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "self-study",
+    "section": "Install",
+    "text": "Install\npip install self_study",
+    "crumbs": [
+      "self-study"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "self-study",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "self-study"
+    ]
+  },
+  {
+    "objectID": "ch1.html",
+    "href": "ch1.html",
+    "title": "Problem Set: Dictionary Comprehensions and Class Attributes",
+    "section": "",
+    "text": "Create a dictionary comprehension that takes a list of numbers and returns a dictionary where the keys are the numbers, and the values are the squares of those numbers.\n\nnumbers = [1, 2, 3, 4, 5]\n# Your code here\nsquared_dict = ...\nprint(squared_dict)",
+    "crumbs": [
+      "Problem Set: Dictionary Comprehensions and Class Attributes"
+    ]
+  },
+  {
+    "objectID": "ch1.html#exercise-1-basic-dictionary-comprehension",
+    "href": "ch1.html#exercise-1-basic-dictionary-comprehension",
+    "title": "Problem Set: Dictionary Comprehensions and Class Attributes",
+    "section": "",
+    "text": "Create a dictionary comprehension that takes a list of numbers and returns a dictionary where the keys are the numbers, and the values are the squares of those numbers.\n\nnumbers = [1, 2, 3, 4, 5]\n# Your code here\nsquared_dict = ...\nprint(squared_dict)",
+    "crumbs": [
+      "Problem Set: Dictionary Comprehensions and Class Attributes"
+    ]
+  },
+  {
+    "objectID": "ch1.html#exercise-2-filtering-in-dictionary-comprehension",
+    "href": "ch1.html#exercise-2-filtering-in-dictionary-comprehension",
+    "title": "Problem Set: Dictionary Comprehensions and Class Attributes",
+    "section": "Exercise 2: Filtering in Dictionary Comprehension",
+    "text": "Exercise 2: Filtering in Dictionary Comprehension\nCreate a dictionary comprehension that takes a dictionary of student names and their scores, and returns a new dictionary with only the students who scored 80 or above.\n\nstudents = {'Alice': 85, 'Bob': 72, 'Charlie': 90, 'David': 78, 'Eve': 95}\n# Your code here\nhigh_scorers = ...\nprint(high_scorers)",
+    "crumbs": [
+      "Problem Set: Dictionary Comprehensions and Class Attributes"
+    ]
+  },
+  {
+    "objectID": "ch1.html#exercise-3-understanding-self.__dict__",
+    "href": "ch1.html#exercise-3-understanding-self.__dict__",
+    "title": "Problem Set: Dictionary Comprehensions and Class Attributes",
+    "section": "Exercise 3: Understanding self.__dict__",
+    "text": "Exercise 3: Understanding self.__dict__\nCreate a class called Person with attributes name, age, and city. Then, create a method that uses a dictionary comprehension to return a dictionary of the instance’s attributes, excluding any that are set to None.\n\nclass Person:\n    def __init__(self, name, age, city=None):\n        self.name = name\n        self.age = age\n        self.city = city\n    \n    def get_attributes(self):\n        # Your code here\n        return ...\n\n# Test your implementation\np1 = Person(\"Alice\", 30, \"New York\")\np2 = Person(\"Bob\", 25)\nprint(p1.get_attributes())\nprint(p2.get_attributes())",
+    "crumbs": [
+      "Problem Set: Dictionary Comprehensions and Class Attributes"
+    ]
+  },
+  {
+    "objectID": "ch1.html#exercise-4-advanced-dictionary-comprehension",
+    "href": "ch1.html#exercise-4-advanced-dictionary-comprehension",
+    "title": "Problem Set: Dictionary Comprehensions and Class Attributes",
+    "section": "Exercise 4: Advanced Dictionary Comprehension",
+    "text": "Exercise 4: Advanced Dictionary Comprehension\nImplement a class called SearchParams that mimics the behavior in the given code snippet. The class should have a method that returns a dictionary of its attributes, excluding None values and specific keys.\n\nclass SearchParams:\n    def __init__(self, **kwargs):\n        self.__dict__.update(kwargs)\n    \n    def get_search_params(self):\n        # Your code here\n        return ...\n\n# Test your implementation\nparams = SearchParams(client=\"test_client\", resource_type=\"book\", author=\"Jane Doe\", year=2023, genre=None)\nprint(params.get_search_params())",
+    "crumbs": [
+      "Problem Set: Dictionary Comprehensions and Class Attributes"
+    ]
+  },
+  {
+    "objectID": "ch1.html#exercise-5-asynchronous-programming-with-classes",
+    "href": "ch1.html#exercise-5-asynchronous-programming-with-classes",
+    "title": "Problem Set: Dictionary Comprehensions and Class Attributes",
+    "section": "Exercise 5: Asynchronous Programming with Classes",
+    "text": "Exercise 5: Asynchronous Programming with Classes\nCreate a class called ResourceManager that simulates asynchronous resource management. Implement a method that updates a resource based on search parameters, similar to the given code snippet.\n\nimport asyncio\n\nclass ResourceManager:\n    def __init__(self, resource_type):\n        self.resource_type = resource_type\n        self.client = None\n    \n    async def update_resource(self, **search_params):\n        # Simulate API call\n        await asyncio.sleep(1)\n        \n        # Your code here\n        # Implement the update logic using search_params\n        ...\n        \n        return f\"Resource {self.resource_type} updated with params: {search_params}\"\n\n# Test your implementation\nasync def main():\n    manager = ResourceManager(\"book\")\n    result = await manager.update_resource(author=\"Jane Doe\", year=2023)\n    print(result)\n\nasyncio.run(main())",
+    "crumbs": [
+      "Problem Set: Dictionary Comprehensions and Class Attributes"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
