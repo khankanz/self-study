@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "self-study"
+  site-url: "https://khankanz.github.io/self-study"
+  description: "A collection of notebooks to keep track of my self-studying"
+  repo-branch: main
+  repo-url: "https://github.com/khankanz/self-study"
